@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    background-color: #F2E5BF;
+}
+.nav-container{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    background-color: #257180;
+    width: 20%;
+    padding: 20px;
+}
+.head-container{
+    background-color: #CB6040 ;
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 10px;
+}
+.name-container{
+    position: relative;
+    background-color: #F2E5BF;
+    width: 100%;
+    height: 25px;
+}
+.menu-container div{
+    position: relative;
+    background-color: #FD8B51;
+    width: 100%;
+    height: 50px;
+    
+}
+.body-container{
+    background-color: #F2E5BF;
+    width: 80%;
+    padding: 30px;
+    flex-direction: row;
+}
+.intro-container{
+    background-color: #CB6040;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.objective-container{
+    background-color: #CB6040;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.exp-1-container{
+    position: relative;
+    left: 15%;
+    background-color: #CB6040;
+    height: 400px;
+    width: 300px;
+    float: left;
+}
+.exp-2-container{
+    position: relative;
+    right: 15%;
+    background-color: #CB6040;
+    height: 400px;
+    width: 300px;
+    float: right;
+}
+
+@media(min-width: 319px) and (max-width:700px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-container{
+        display: inline-block;
+        position: relative;
+        height: 30vh;
+        background-color: #257180;
+        width: 100vw;
+        padding: 0;
+    }
+
+    .head-container{
+        position: relative;
+        background-color: #CB6040 ;
+        position: relative;
+        width: 40vw;
+        height: 70%;
+        margin: 10px 10px 10px 30px;
+        float: left;
+    }
+
+    .name-container{
+        position: relative;
+        background-color: #F2E5BF;
+        width: 40vw;
+        height: 25px;
+        left: 50vw;
+        top: 10vh
+    }
+    .menu-container{
+        background-color: #F2E5BF;
+        gap: 3px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 220px;
+        position: relative;
+    }
+    .menu-container div{
+        position: relative;
+        background-color: #FD8B51;
+        text-align: center;
+        width: 90vw;
+        height: 44px;
+        z-index: 1;
+        top: 10px;
+    }
+    hr{
+        display: none;
+    }
+    .body-container{
+        background-color: #F2E5BF;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 200px;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding: 10px 0 0 0;
+        align-items: center;
+        width: 100vw;
+    }
+    .intro-container{
+        background-color: #CB6040;
+        height: 200px;
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+    .objective-container{
+        background-color: #CB6040;
+        height: 200px;
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+    .exp-1-container{
+        left: 0;
+        background-color: #CB6040;
+        height: 400px;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .exp-2-container{
+        right: 0;
+        background-color: #CB6040;
+        height: 400px;
+        width: 300px;
+    }
+    
+    .footer-container{
+        background-color: #b17f33;
+        width: 100vw;
+        height: 20px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+}
